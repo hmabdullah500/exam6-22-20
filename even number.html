@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>even number</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<input type="text" id="number">
+	<button onclick="myFunction()">Try it</button>
+	<p id="result"></p>
+
+
+	<script>
+	function myFunction(){
+	var num =   document.getElementById('number').value;
+	if ( num % 2 == 0){
+	document.getElementById('result').innerHTML = "Entered Number is Even";
+	}
+	else{
+	document.getElementById('result').innerHTML = "Entered Number is not Even";
+	}
+	}
+	</script>
+</body>
+</html>
